@@ -46,8 +46,6 @@ Command | Description
 **init** | 現在のディレクトリに新しい Firebase プロジェクトを設定します。 このコマンドは、現在のディレクトリに `firebase.json` 設定ファイルを作成します。
 **help** | CLIまたは特定のコマンドに関するヘルプ情報を表示します。
 
-Append `--no-localhost` to login (i.e., `firebase login --no-localhost`) to copy and paste code instead of starting a local server for authentication. A use case might be if you SSH into an instance somewhere and you need to authenticate to Firebase on that machine.
-
 認証のためにローカルサーバを起動する代わりに `--no-localhost` を追加してログインします（つまり、`firebase login --no-localhost` ）。 あるインスタンスに SSH で接続し、そのマシン上で Firebase を認証する必要がある場合には、ユースケースがあります。
 
 ### Deployment and Local Development - デプロイとローカル開発
@@ -122,8 +120,6 @@ Firebase CLIを使用しているマシンでは、`firebase logout --token <tok
 
 
 ## Using as a Module - モジュールの使用
-
-The Firebase CLI can also be used programmatically as a standard Node module. This can only be done on your machine, and cannot be done within Cloud Functions. Each command is exposed as a function that takes an options object and returns a Promise. For example:
 
 Firebase CLIは、標準 Nodeモジュールとしてプログラムで使用することもできます。 これはあなたのマシンでのみ行うことができ、クラウド機能内では実行できません。 各コマンドは、オプションオブジェクトを取り、Promise を返す関数として公開されています。 例えば…
 
