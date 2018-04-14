@@ -4,7 +4,6 @@
 
 AWS でいう所のEC2みたいなサービスを指す。
 
-
 ## PaaS - Platform as a Service
 
 AWS でいう所のRDSみたいなサービスを指す。
@@ -13,6 +12,7 @@ AWS でいう所のRDSみたいなサービスを指す。
 
 Github みたいなサービスを指す。
 
-- [Firebase](https://firebase.google.com/?hl=ja) モバイル開発支援ツールみたいなもの
-    - [fire-base-tools](./firebase/FIRE-BASE-TOOLS.md) インストールや使い方など
+* [Firebase](https://firebase.google.com/?hl=ja) モバイル(SPAなど含む)開発支援ツールみたいなもの
+    * [fire-base-tools](./firebase/FIRE-BASE-TOOLS.md) インストールやコマンドなど。
+    * [Firebase Hosting](./firebase/USE-CASE.md) を使ってみた。
 
